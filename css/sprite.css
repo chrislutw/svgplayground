@@ -186,12 +186,18 @@ table {
 .apple {
   width: 300px;
   height: 300px;
-  fill: url(../imgs/mysprite.svg#MyGradient);
+}
+.apple.work {
+  fill: url(#itswork);
+}
+.apple.notwork {
+  fill: url(imgs/mysprite.svg#MyGradient);
 }
 
 .fb {
   width: 100px;
   height: 100px;
+  fill: url(#itswork);
 }
 
 /*# sourceMappingURL=sprite.css.map */

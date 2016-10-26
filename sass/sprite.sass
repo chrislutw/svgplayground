@@ -12,10 +12,16 @@
   @extend %icon
   width: 300px
   height: 300px
-  fill: url(../imgs/mysprite.svg#MyGradient)
+  &.work
+    fill: url(#itswork)
+  &.notwork
+    fill: url(imgs/mysprite.svg#MyGradient)
 
 .fb
   @extend %icon
   width: 100px
   height: 100px
+  fill: url(#itswork)
+
+
 
