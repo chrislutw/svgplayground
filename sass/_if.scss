@@ -1,0 +1,16 @@
+$width: auto;
+@for $i from 1 through 20 {
+
+  @if $i < 10 {
+    .ssss-0#{$i} {
+      display: inline-block;
+      width: $width;
+    }
+  } @else {
+    .ssss-#{$i} {
+      display: inline-block;
+      width: $width;
+    }
+  }
+
+}

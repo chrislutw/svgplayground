@@ -1,0 +1,21 @@
+@import compass/css3
+@import vars
+@import reset
+
+%icon
+  fill: blue
+  // background-color: green
+
+.wrap
+  text-align: center
+.apple
+  @extend %icon
+  width: 300px
+  height: 300px
+  fill: url("http://127.0.0.1/imgs/mysprite.svg#MyGradient")
+
+.fb
+  @extend %icon
+  width: 100px
+  height: 100px
+
