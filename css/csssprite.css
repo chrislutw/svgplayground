@@ -176,7 +176,7 @@ table {
 }
 
 .icon-sprite, .icon-accessibility, .icon-fb_logo, .icon-heitologo, .icon-mark1, .icon-mark2, .icon-mark3, .icon-mark4 {
-  background-image: url('/imgs/icon-s2914f0df6b.png');
+  background-image: url('../imgs/icon-s2914f0df6b.png');
   background-repeat: no-repeat;
 }
 
@@ -223,7 +223,7 @@ table {
 }
 
 .status-sprite, .status-statusimg {
-  background-image: url('/imgs/icons/status-se363839b08.png');
+  background-image: url('../imgs/icons/status-se363839b08.png');
   background-repeat: no-repeat;
 }
 
