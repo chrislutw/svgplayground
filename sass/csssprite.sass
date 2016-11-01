@@ -1,0 +1,49 @@
+@import compass/css3
+@import reset
+
+//設定
+//$<map your folder>-layout: horizontal (horizontal、vertical、diagonal、smart)
+//$<map your folder>-spacing: 10px
+//$<map your folder>-sprite-dimensions: true (true、false)
+//以上這些的設定的方法都必須寫在 @import "<map>/*.png"之前才會有作用哦
+//
+//可利用的compass函式
+//<map your folder>-sprite-width(some_icon)   取得某一圖片width
+//<map your folder>-sprite-height(some_icon)  取得某一圖片height
+//
+//執行
+//@import "<map your folder>/*.png"  載入圖片
+//+all-<map your folder>-sprites     建立sprite
+
+$icon-sprite-dimensions: true  //false、true
+$icon-spacing: 10px
+$icon-layout: horizontal
+
+@import "icon/*.png"
++all-icon-sprites
+
+$status-sprite-dimensions: true  //false、true
+$status-spacing: 0
+$status-layout: smart
+@import "icons/status/*.png"
++all-status-sprites
+
+.wrap
+  margin: 2em 20% auto
+  text-align: center
+  font-size: 24px
+
+.topic
+  margin-bottom: 2em
+
+.sprite
+  list-style: none outside none
+  margin: 0 auto
+  padding: 0
+  width: 500px
+  li
+    display: inline-block
+    margin: 5px
+
+.status-statusimg
+  display: inline-block

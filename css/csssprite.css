@@ -175,44 +175,96 @@ table {
   border-spacing: 0;
 }
 
-.apple, .fb, .fbt {
-  fill: blue !important;
+.icon-sprite, .icon-accessibility, .icon-fb_logo, .icon-heitologo, .icon-mark1, .icon-mark2, .icon-mark3, .icon-mark4 {
+  background-image: url('/imgs/icon-s2914f0df6b.png');
+  background-repeat: no-repeat;
+}
+
+.icon-accessibility {
+  background-position: 0 0;
+  height: 31px;
+  width: 88px;
+}
+
+.icon-fb_logo {
+  background-position: -98px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.icon-heitologo {
+  background-position: -155px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.icon-mark1 {
+  background-position: -212px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.icon-mark2 {
+  background-position: -269px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.icon-mark3 {
+  background-position: -326px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.icon-mark4 {
+  background-position: -383px 0;
+  height: 43px;
+  width: 47px;
+}
+
+.status-sprite, .status-statusimg {
+  background-image: url('/imgs/icons/status-se363839b08.png');
+  background-repeat: no-repeat;
+}
+
+.status-statusimg {
+  background-position: 0 -300px;
+  height: 100px;
+  width: 200px;
+}
+.status-statusimg:hover, .status-statusimg.statusimg-hover {
+  background-position: 0 -200px;
+}
+.status-statusimg:active, .status-statusimg.statusimg-active {
+  background-position: 0 0;
+}
+.status-statusimg:focus, .status-statusimg.statusimg-focus {
+  background-position: 0 -100px;
 }
 
 .wrap {
+  margin: 2em 20% auto;
   text-align: center;
-  margin: 4em;
+  font-size: 24px;
 }
 
-.apple {
-  width: 200px;
-  height: 200px;
+.topic {
+  margin-bottom: 2em;
 }
 
-.fb {
-  width: 200px;
-  height: 200px;
-}
-
-.fbt {
+.sprite {
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 0;
   width: 500px;
-  height: 500px;
-  background-color: green;
-  background: url("../imgs/vine.svg");
-  background-size: cover;
-  background-position: 50% 0;
-  position: relative;
-  background-repeat: no-repeat;
+}
+.sprite li {
+  display: inline-block;
+  margin: 5px;
 }
 
-.bgd {
-  width: 500px;
-  height: 500px;
-  background-color: green;
-  background-size: 500px 500px;
-  position: relative;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
+.status-statusimg {
+  display: inline-block;
 }
 
-/*# sourceMappingURL=sprite.css.map */
+/*# sourceMappingURL=csssprite.css.map */

@@ -3,25 +3,42 @@
 @import reset
 
 %icon
-  fill: blue
+  fill: blue !important
   // background-color: green
 
 .wrap
   text-align: center
+  margin: 4em
 .apple
   @extend %icon
-  width: 300px
-  height: 300px
-  &.work
-    fill: url(#itswork)
-  &.notwork
-    fill: url(imgs/mysprite.svg#MyGradient)
+  width: 200px
+  height: 200px
 
 .fb
   @extend %icon
-  width: 100px
-  height: 100px
-  fill: url(#itswork)
+  width: 200px
+  height: 200px
+
+.fbt
+  @extend %icon
+  width: 500px
+  height: 500px
+  background-color: green
+  background: url('../imgs/vine.svg')
+  background-size: cover
+  background-position: 50% 0
+  position: relative
+  background-repeat: no-repeat
+
+.bgd
+  width: 500px
+  height: 500px
+  // background: url('../imgs/mysprite.svg#icon-facebook')
+  background-color: green
+  background-size: 500px 500px
+  position: relative
+  background-position: 50% 0
+  background-repeat: no-repeat
 
 
 
