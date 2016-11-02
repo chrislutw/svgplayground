@@ -1,0 +1,27 @@
+@import compass/css3
+@import reset
+@import mixin
+
+
+.wrap
+  margin: 2em 20% auto
+  text-align: center
+  font-size: 24px
+
+.topic
+  margin-bottom: 2em
+
+.sprite
+  list-style: none outside none
+  margin: 0 auto
+  padding: 0
+  width: 800px
+  li
+    display: inline-block
+    margin: 5px
+
+.status-statusimg
+  display: inline-block
+
++svgsprite("../imgs/sprite.svg", (clubs,twitter,vine,appleinc), 'icon', 48px, 64px, 320px)
+

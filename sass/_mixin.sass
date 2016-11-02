@@ -66,4 +66,22 @@
       @media only screen and (max-width: $size)
         @content
 
+=svgsprite($_file-path, $_icons-name, $_class-name, $_icons-size, $_svg-oriwidth, $_svg-oriheight)
+  $icons: $_icons-name
+  $file-path: $_file-path
+  $icons-size: $_icons-size
+  $svg-oriwidth: $_svg-oriwidth
+  $svg-oriheight: $_svg-oriheight
+  $rate: $icons-size / $svg-oriwidth
+  $svg-width: $svg-oriwidth * $rate
+  $svg-height: $svg-oriheight * $rate
+  %#{$_class-name}svgsprite
+    width: $icons-size
+    height: $icons-size
+    background: url($file-path) no-repeat
+    background-size: $svg-width $svg-height
 
+  @for $i from 1 through length($icons)
+    .#{$_class-name}-#{nth($icons,$i)}
+      @extend %#{$_class-name}svgsprite
+      background-position: 0  -1 * (($i - 1) * $icons-size)

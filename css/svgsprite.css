@@ -175,55 +175,6 @@ table {
   border-spacing: 0;
 }
 
-.icon-sprite, .icon-mark1, .icon-mark2, .icon-mark3, .icon-mark4 {
-  background-image: url('../imgs/icon-s23f8268eae.png');
-  background-repeat: no-repeat;
-}
-
-.icon-mark1 {
-  background-position: 0 0;
-  height: 43px;
-  width: 47px;
-}
-
-.icon-mark2 {
-  background-position: -57px 0;
-  height: 43px;
-  width: 47px;
-}
-
-.icon-mark3 {
-  background-position: -114px 0;
-  height: 43px;
-  width: 47px;
-}
-
-.icon-mark4 {
-  background-position: -171px 0;
-  height: 43px;
-  width: 47px;
-}
-
-.status-sprite, .status-statusimg {
-  background-image: url('../imgs/icons/status-sd959b7abfb.png');
-  background-repeat: no-repeat;
-}
-
-.status-statusimg {
-  background-position: 0 -300px;
-  height: 100px;
-  width: 200px;
-}
-.status-statusimg:hover, .status-statusimg.statusimg-hover {
-  background-position: 0 -200px;
-}
-.status-statusimg:active, .status-statusimg.statusimg-active {
-  background-position: 0 0;
-}
-.status-statusimg:focus, .status-statusimg.statusimg-focus {
-  background-position: 0 -100px;
-}
-
 .wrap {
   margin: 2em 20% auto;
   text-align: center;
@@ -238,7 +189,7 @@ table {
   list-style: none outside none;
   margin: 0 auto;
   padding: 0;
-  width: 500px;
+  width: 800px;
 }
 .sprite li {
   display: inline-block;
@@ -249,4 +200,27 @@ table {
   display: inline-block;
 }
 
-/*# sourceMappingURL=csssprite.css.map */
+.icon-clubs, .icon-twitter, .icon-vine, .icon-appleinc {
+  width: 48px;
+  height: 48px;
+  background: url("../imgs/sprite.svg") no-repeat;
+  background-size: 48px 240px;
+}
+
+.icon-clubs {
+  background-position: 0 0px;
+}
+
+.icon-twitter {
+  background-position: 0 -48px;
+}
+
+.icon-vine {
+  background-position: 0 -96px;
+}
+
+.icon-appleinc {
+  background-position: 0 -144px;
+}
+
+/*# sourceMappingURL=svgsprite.css.map */
