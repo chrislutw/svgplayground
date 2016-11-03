@@ -237,7 +237,7 @@ table {
 .sprite {
   list-style: none outside none;
   margin: 0 auto;
-  padding: 0;
+  padding: 1;
   width: 500px;
 }
 .sprite li {

@@ -9,7 +9,13 @@
   <div class="wrap">
 
     <svg class="fb" xmlns="http://www.w3.org/2000/svg">
-      <use xlink:href="imgs/mysprite.svg#icon-facebook"></use>
+      <defs>
+        <linearGradient id="L" x1="0%" y1="0%" x2="100%" y2="100%">
+         <stop offset="5%" stop-color="#F00" />
+         <stop offset="95%" stop-color="#ff0" />
+       </linearGradient>
+      </defs>
+      <use xlink:href="imgs/mysprite.svg#icon-facebook" fill="url(#L)"></use>
       <text x="50%" y="10%" text-family="sans-serif" text-anchor="middle" font-size="32px" fill="black">use-in css</text>
     </svg>
 
@@ -17,6 +23,7 @@
       <use xlink:href="imgs/mysprite.svg#icon-appleinc"></use>
       <text x="50%" y="10%" text-family="sans-serif" text-anchor="middle" font-size="32px" fill="black">use-in css</text>
     </svg>
+
 
 
   </div>

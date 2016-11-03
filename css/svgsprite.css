@@ -176,9 +176,9 @@ table {
 }
 
 .wrap {
-  margin: 2em 20% auto;
+  margin: 2em 10% auto;
   text-align: center;
-  font-size: 24px;
+  font-size: 50px;
 }
 
 .topic {
@@ -201,10 +201,10 @@ table {
 }
 
 .icon-clubs, .icon-twitter, .icon-vine, .icon-appleinc {
-  width: 48px;
-  height: 48px;
+  width: 80px;
+  height: 80px;
   background: url("../imgs/sprite.svg") no-repeat;
-  background-size: 48px 240px;
+  background-size: 80px 400px;
 }
 
 .icon-clubs {
@@ -212,15 +212,16 @@ table {
 }
 
 .icon-twitter {
-  background-position: 0 -48px;
+  background-position: 0 -80px;
+  fill: #F0F;
 }
 
 .icon-vine {
-  background-position: 0 -96px;
+  background-position: 0 -160px;
 }
 
 .icon-appleinc {
-  background-position: 0 -144px;
+  background-position: 0 -240px;
 }
 
 /*# sourceMappingURL=svgsprite.css.map */

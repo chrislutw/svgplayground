@@ -176,7 +176,7 @@ table {
 }
 
 .apple, .fb, .fbt {
-  fill: blue !important;
+  fill: blue;
 }
 
 .wrap {
