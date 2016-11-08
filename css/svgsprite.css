@@ -223,4 +223,27 @@ table {
   background-position: 0 -240px;
 }
 
+.icon-clubs, .icon-twitter, .icon-vine, .icon-appleinc {
+  width: 70px;
+  height: 70px;
+  background: url("../imgs/sprite.svg") no-repeat;
+  background-size: 70px 350px;
+}
+
+.icon-clubs {
+  background-position: 0 0px;
+}
+
+.icon-twitter {
+  background-position: 0 -70px;
+}
+
+.icon-vine {
+  background-position: 0 -140px;
+}
+
+.icon-appleinc {
+  background-position: 0 -210px;
+}
+
 /*# sourceMappingURL=svgsprite.css.map */

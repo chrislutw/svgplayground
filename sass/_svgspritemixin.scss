@@ -11,7 +11,7 @@
   $svg-width: $svg-oriwidth * $rate;
   $svg-height: $svg-oriheight * $rate;
 
-  %#{$_class-name}svgsprite {
+  %#{$_class-name}-svgsprite-#{$icons-size} {
     width: $icons-size;
     height: $icons-size;
     background: url($file-path) no-repeat;
@@ -19,7 +19,7 @@
   }
   @for $i from 1 through length($icons) {
     .#{$_class-name}-#{nth($icons,$i)} {
-      @extend %#{$_class-name}svgsprite;
+      @extend %#{$_class-name}-svgsprite-#{$icons-size};
       background-position: 0  -1 * (($i - 1) * $icons-size);
     }
   }
